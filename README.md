@@ -1,176 +1,181 @@
-AI Parasitic Social Media Growth Infrastructure
+# AI Parasitic Social Media Growth Infrastructure
 
-Developed for GDG TechSprint Hackathon
+> Developed for **GDG TechSprint Hackathon**
 
-An AI-driven, non-invasive growth infrastructure designed to integrate into social media workflows.
+An AI-driven, non-invasive growth infrastructure designed to integrate into social media workflows.  
 The system analyzes engagement signals, identifies performance patterns, and automates growth-related tasks while remaining platform-compliant.
 
-Overview
+---
 
-Most analytics tools focus on what happened (views, likes, reach).
-This system focuses on why it happened.
+## Overview
+
+Most analytics tools focus on *what* happened (views, likes, reach).  
+This system focuses on **why it happened**.
 
 By decomposing content performance into clear behavioral and algorithmic signals, creators and teams gain actionable intelligence that can be executed immediately through AI-powered agents.
 
-Key Capabilities
+---
 
-📊 Engagement and performance signal analysis
+## Key Capabilities
 
-🧠 AI-based pattern recognition and optimization
+- Engagement and performance signal analysis  
+- AI-based pattern recognition and optimization  
+- Automated execution of growth workflows  
+- Continuous feedback-driven learning  
+- Modular agent-based architecture  
 
-⚙️ Automated execution of growth workflows
+---
 
-🔁 Continuous feedback-driven learning
+## System Architecture
 
-🧩 Modular agent-based architecture
-
-System Architecture
-1. Data Ingestion & Signal Collection
+### 1. Data Ingestion & Signal Collection
 
 The foundation layer continuously gathers raw platform data and converts it into structured signals.
 
-YouTube Info Collector
-Collects video metadata including views, watch time, engagement, publish time, and channel context.
+- **YouTube Info Collector**  
+  Gathers complete video metadata including views, watch time, engagement, publish time, and channel context.
 
-Like Scraper
-Calculates like-to-view ratios to measure genuine audience interest.
+- **Like Scraper**  
+  Calculates like-to-view ratios to measure genuine audience interest beyond surface-level views.
 
-Duration Scraper
-Analyzes watch behavior to identify optimal video length for retention.
+- **Duration Scraper**  
+  Analyzes watch behavior to identify optimal video length for retention.
 
-Favorite Scraper
-Detects long-term value by tracking save and revisit behavior.
+- **Favorite Scraper**  
+  Detects long-term value by tracking save and revisit behavior.
 
-Title Scraper
-Identifies high-performing title structures that drive clicks and trust.
+- **Title Scraper**  
+  Identifies high-performing title structures that drive clicks and trust.
 
-Published-At Agent
-Determines optimal upload timing based on audience activity and algorithm response windows.
+- **Published-At Agent**  
+  Determines optimal upload timing based on audience activity and algorithm response windows.
 
-Tags Scraper
-Extracts and ranks effective tags to improve discoverability.
+- **Tags Scraper**  
+  Extracts and ranks effective tags to improve discoverability.
 
-Comments Scraper
-Analyzes sentiment, emotion, and intent to understand audience reaction.
+- **Comments Scraper**  
+  Analyzes sentiment, emotion, and intent to understand audience reaction.
 
-2. Intelligence & Pattern Recognition
+---
+
+### 2. Intelligence & Pattern Recognition
 
 Collected signals are processed into actionable insights.
 
-24+T Review Agent
-Evaluates content performance after 24 hours to classify growth as accelerating, stagnating, or decaying.
+- **24+T Review Agent**  
+  Evaluates content performance after 24 hours to classify growth as accelerating, stagnating, or decaying.
 
-Personalized Owner Chatbot
-Provides a conversational interface for querying performance insights, risks, and opportunities in real time.
+- **Personalized Owner Chatbot**  
+  Provides a conversational interface for querying performance insights, risks, and opportunities in real time.
 
-3. Content & Communication Automation
+---
+
+### 3. Content & Communication Automation
 
 Insights are directly converted into execution.
 
-Script Writing Agent
-Generates optimized video scripts using retention patterns and audience tone.
+- **Script Writing Agent**  
+  Generates optimized video scripts using retention patterns and audience tone.
 
-Template Generation Agent
-Produces reusable content, outreach, and email templates aligned with proven structures.
+- **Template Generation Agent**  
+  Produces reusable content, outreach, and email templates aligned with proven structures.
 
-Proposal Agent
-Automatically generates collaboration and brand proposals tailored to channel performance.
+- **Proposal Agent**  
+  Automatically generates collaboration and brand proposals tailored to channel performance.
 
-4. Business & Growth Expansion
+---
+
+### 4. Business & Growth Expansion
 
 The infrastructure extends beyond content into monetization and operations.
 
-Lead Generation Agent
-Identifies relevant sponsors, partners, and collaboration opportunities.
+- **Lead Generation Agent**  
+  Identifies relevant sponsors, partners, and collaboration opportunities.
 
-Gmail Categorization Agent
-Classifies incoming emails by intent (brand deals, collaborations, spam, urgent).
+- **Gmail Categorization Agent**  
+  Classifies incoming emails by intent such as brand deals, collaborations, spam, or urgent messages.
 
-Booking & Appointment Agent
-Manages scheduling and follow-ups without manual intervention.
+- **Booking & Appointment Agent**  
+  Manages meeting scheduling and follow-ups without manual intervention.
 
-Agentic Dashboard Orchestration
+---
 
-The dashboard translates complex performance data into clear, real-time signals that explain audience behavior and algorithm response.
+## Agentic Dashboard Orchestration
+
+The dashboard converts raw performance data into clear, real-time signals that explain audience behavior and algorithm response.
 
 Each signal answers one specific question about content effectiveness.
 
-Duration Signals
+---
 
-SWEETSPOT – Content length optimization
+### Duration Signals
 
-RETENTION – Viewer engagement over time
+- **SWEETSPOT** – Content length optimization  
+- **RETENTION** – Viewer engagement over time  
+- **LIFT** – Performance change versus previous content  
+- **COMPLETION** – Full-view rate  
 
-LIFT – Performance change vs previous content
+---
 
-COMPLETION – Full-view rate
+### Views Signals
 
-Views Signals
+- **VELOCITY** – Growth speed  
+- **PULSE** – Acceleration or slowdown  
+- **DRIFT** – Interest decay detection  
+- **REACH** – New audience exposure  
 
-VELOCITY – Growth speed
+---
 
-PULSE – Acceleration or slowdown
+### Publish Timing Signals
 
-DRIFT – Interest decay detection
+- **WINDOW** – Timing accuracy  
+- **HALFLIFE** – Content relevance lifespan  
+- **BOOST** – Short-term algorithm push  
+- **RHYTHM** – Audience consistency alignment  
 
-REACH – New audience exposure
+---
 
-Publish Timing Signals
+### Likes Signals
 
-WINDOW – Timing accuracy
+- **APPEAL** – Initial attractiveness  
+- **LOYALTY** – Consistent audience support  
+- **AMPLIFY** – Public endorsement likelihood  
+- **SIGNAL** – Overall positive response strength  
 
-HALFLIFE – Content relevance lifespan
+---
 
-BOOST – Short-term algorithm push
+### Comments Signals
 
-RHYTHM – Audience consistency alignment
+- **SPARK** – Conversation initiation speed  
+- **ECHO** – Discussion longevity  
+- **PULL** – Opinion-inviting strength  
+- **HEAT** – Emotional intensity  
 
-Likes Signals
+---
 
-APPEAL – Initial attractiveness
+### Title Signals
 
-LOYALTY – Consistent audience support
+- **GRAB** – Attention capture  
+- **ALIGN** – Expectation match  
+- **PULL** – Curiosity generation  
+- **TRUST** – Credibility perception  
 
-AMPLIFY – Public endorsement likelihood
+---
 
-SIGNAL – Overall positive response strength
+### Thumbnail Signals
 
-Comments Signals
+- **HOOK** – Scroll-stopping ability  
+- **STORY** – Visual clarity  
+- **CONTRAST** – Feed differentiation  
+- **SIGNAL** – Overall effectiveness  
 
-SPARK – Conversation initiation speed
+---
 
-ECHO – Discussion longevity
+## Team ZODZY
 
-PULL – Opinion-inviting strength
+- **Leader**: B. Kathikeyan  
+- **Members**:  
+  - Kavin Prakash K  
+  - Sruthi  
 
-HEAT – Emotional intensity
-
-Title Signals
-
-GRAB – Attention capture
-
-ALIGN – Expectation match
-
-PULL – Curiosity generation
-
-TRUST – Credibility perception
-
-Thumbnail Signals
-
-HOOK – Scroll-stopping ability
-
-STORY – Visual clarity
-
-CONTRAST – Feed differentiation
-
-SIGNAL – Overall effectiveness
-
-Team ZODZY
-
-Leader: B. Kathikeyan
-
-Members:
-
-Kavin Prakash K
-
-Sruthi
+---
