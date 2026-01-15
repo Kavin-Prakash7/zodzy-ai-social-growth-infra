@@ -11,4 +11,8 @@ This video demonstrates the complete working flow of the **AI Parasitic Social M
 👉 **Google Drive Link:**  
 https://drive.google.com/file/d/XXXXXXXX/view
 
-> Note: Please ensure the link is set to **“Anyone with the link can view.”**
+## Demo Video
+
+A complete working demonstration of the project is available here:
+
+📂 **[View Demo Video](demo/DEMO_VIDEO.md)**
